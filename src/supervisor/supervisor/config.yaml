@@ -1,0 +1,16 @@
+# missions.yaml
+missions:
+  mission1:
+    - node1
+    - node2
+  mission2:
+    - node2
+    - node3
+  mission3:
+    - node1
+    - node3
+
+nodes:
+  node1: supervisor.my_first_node.my_first_node
+  node2: supervisor.my_second_node.my_second_node
+  node3: supervisor.my_third_node.my_third_node
