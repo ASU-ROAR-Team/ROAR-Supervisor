@@ -11,6 +11,6 @@ missions:
     - node3
 
 nodes:
-  node1: supervisor.my_first_node.my_first_node
-  node2: supervisor.my_second_node.my_second_node
-  node3: supervisor.my_third_node.my_third_node
+  node1: "ros2 run supervisor my_first_node"
+  node2: "ros2 run supervisor my_second_node"
+  node3: "ros2 run supervisor my_third_node"

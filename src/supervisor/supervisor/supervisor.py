@@ -1,3 +1,4 @@
+from click import command
 import rclpy
 import threading
 import yaml
@@ -8,50 +9,67 @@ from rclpy.executors import MultiThreadedExecutor
 from supervisor.heartbeat_publisher import HeartbeatPublisher
 import os
 from ament_index_python.packages import get_package_share_directory
+import subprocess
+import psutil
+
+
+processes = {}
 
 class Supervisor(Node):
     def __init__(self):
         super().__init__("supervisor")
         self.get_logger().info("Supervisor running")
 
-# Helper function to import a class dynamically from a string path
-def import_class(full_class_string):
-    module_name, class_name = full_class_string.rsplit(".", 1)
-    module = importlib.import_module(module_name)
-    cls = getattr(module, class_name)
-    return cls
-
-#Input thread for selecting missions
-def input_thread(executor, missions, node_classes, active_nodes):
+#Input thread for selecting missions 
+def input_thread(executor, missions, nodes, active_nodes):
     while True:
-        cmd = input(f"Choose a mission {list(missions.keys())} or 'exit': ").strip()
+        cmd = input(f"\nChoose a mission {list(missions.keys())}, or 'exit': ").strip()
         if cmd == "exit":
             print("Shutting down...")
             rclpy.shutdown()
             break
+
         elif cmd in missions:
-            # Destroy previously active nodes and their heartbeats
+            # Destroy previously active nodes, heartbeats, and resource monitors
             for node_data in active_nodes.values():
-                node_instance = node_data['node']
                 heartbeat = node_data.get('heartbeat')
-                executor.remove_node(node_instance)
+                process = node_data.get('process')
+                
                 if heartbeat:
                     executor.remove_node(heartbeat)
                     heartbeat.destroy_node()
-                node_instance.destroy_node()
+                if process:
+                    try:
+                        process.terminate()
+                        process.wait(timeout=2)
+                    except subprocess.TimeoutExpired:
+                        process.kill()
+                    except Exception as e:
+                        print(f"Error terminating process: {e}")
+            
             active_nodes.clear()
+            processes.clear()
 
-            # Launch new nodes for this mission
+                # Launch new processes for this mission
             for node_name in missions[cmd]:
-                cls = node_classes.get(node_name)
-                if cls:
-                    node_instance = cls()
-                    executor.add_node(node_instance)
-                    # Also add the heartbeat if it exists
-                    heartbeat = getattr(node_instance, 'heartbeat', None)
-                    if heartbeat:
-                        executor.add_node(heartbeat)
-                    active_nodes[node_name] = {'node': node_instance, 'heartbeat': heartbeat}
+                file_path = nodes.get(node_name)  # in this case, node_classes maps name -> Python file path
+                if file_path:
+                        try:
+                            # Launch the Python file as a separate process
+                            proc = subprocess.Popen(file_path, shell=True)                    
+                            print(f"Launched process '{node_name}' with PID: {proc.pid}")
+                            processes[node_name] = proc
+
+                            # Create unified Monitor (handles both heartbeat and resource monitoring)
+                            heartbeat = HeartbeatPublisher(process_name=node_name, message=f"{node_name}", pid= proc.pid, interval=2)
+                            executor.add_node(heartbeat)
+                            
+                            active_nodes[node_name] = {
+                                'heartbeat': heartbeat, 
+                                'process': proc
+                            }
+                        except Exception as e:
+                            print(f"Error launching {node_name}: {e}")
             print(f"Mission '{cmd}' launched: {missions[cmd]}")
         else:
             print("Unknown mission")
@@ -68,10 +86,8 @@ def main(args=None):
     missions = config.get("missions", {})
     nodes = config.get("nodes", {})
 
-    NODE_CLASSES = {name: import_class(path) for name, path in nodes.items()}
-
     supervisor_node = Supervisor()
-    heartbeat_node = HeartbeatPublisher(message="Supervisor", interval=5)
+    heartbeat_node = HeartbeatPublisher(process_name="Supervisor", message=f"Supervisor alive", pid= os.getpid(), interval=5)
 
     executor = MultiThreadedExecutor()
     executor.add_node(supervisor_node)
@@ -80,18 +96,33 @@ def main(args=None):
     active_nodes = {}
 
     # Start input thread
-    thread = threading.Thread(target=input_thread, args=(executor, missions, NODE_CLASSES, active_nodes), daemon=True)
+    thread = threading.Thread(target=input_thread, args=(executor, missions, nodes, active_nodes), daemon=True)
     thread.start()
 
     try:
         executor.spin()
     finally:
+        # Clean up all monitors and processes
         for node in active_nodes.values():
-            node.destroy_node()
+            heartbeat_node = node.get('heartbeat')
+            process = node.get('process')
+            
+            if heartbeat_node:
+                heartbeat_node.shutdown()
+                executor.remove_node(heartbeat_node)
+            if process:
+                try:
+                    process.terminate()
+                    process.wait(timeout=2)
+                except subprocess.TimeoutExpired:
+                    process.kill()
+                except Exception as e:
+                    print(f"Error terminating process: {e}")
+        
+        executor.remove_node(heartbeat_node)
         heartbeat_node.destroy_node()
         supervisor_node.destroy_node()
         rclpy.shutdown()
-
 
 if __name__ == "__main__":
     main()

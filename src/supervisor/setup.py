@@ -25,8 +25,8 @@ setup(
     entry_points={
     'console_scripts': [
         'my_first_node = supervisor.my_first_node:main',
-        'my_second_node = my_second_node.my_second_node:main',
-        'my_third_node = my_third_node.my_third_node:main',
+        'my_second_node = supervisor.my_second_node:main',
+        'my_third_node = supervisor.my_third_node:main',
         'heartbeat = supervisor.heartbeat_publisher:main',
         'supervisor = supervisor.supervisor:main',
     ],
