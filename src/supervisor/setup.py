@@ -11,7 +11,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml', 'supervisor/config.yaml']),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'psutil', 'pyyaml'],
     zip_safe=True,
     maintainer='redknight',
     maintainer_email='redknight@todo.todo',

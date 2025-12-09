@@ -1,6 +1,5 @@
 import rclpy
 from rclpy.node import Node
-from supervisor.heartbeat_publisher import *
 from rclpy.executors import MultiThreadedExecutor
 
 class my_first_node(Node):
@@ -18,8 +17,14 @@ def main(args=None):
     try:
         executor.spin()
     finally:
-        node.destroy_node()
-        rclpy.shutdown()
+        try:
+            node.destroy_node()
+        except Exception:
+            pass
+        try:
+            rclpy.shutdown()
+        except Exception:
+            pass
 
 if __name__ == "__main__":
     main()
