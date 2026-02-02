@@ -10,15 +10,65 @@ from rclpy.node import Node
 from rclpy.executors import MultiThreadedExecutor
 from ament_index_python.packages import get_package_share_directory
 from supervisor.MonitorNode import MonitorNode
+from rcl_interfaces.msg import Log
 
 
 processes = {}
+log_dir = "supervisor_logs"
 
 class Supervisor(Node):
     def __init__(self):
         super().__init__("supervisor")
-        self.get_logger().info("Supervisor running")
 
+        self.log_dir = log_dir
+        os.makedirs(self.log_dir, exist_ok=True)
+        self.log_files = {}
+        self.create_subscription(
+            Log,
+            '/rosout',
+            self.log_callback,
+            1000
+        )
+
+        self.get_logger().info("Supervisor running")
+        
+    def log_callback(self, msg: Log):
+        """Callback to log messages from all nodes into separate files."""
+        log_file = self.get_log_file(msg.name)
+
+        level = self.level_to_string(msg.level)
+
+        file = os.path.basename(msg.file)
+        
+        log_file.write(
+            f"[{msg.stamp.sec}.{msg.stamp.nanosec:09d}] "
+            f"[{level}] "
+            f"[{msg.name}::{msg.function} @ {file}:{msg.line}] "
+            f"{msg.msg}\n"
+        )
+        log_file.flush()
+
+    def get_log_file(self, node_name: str):
+        """Get or create a log file for the given node name."""
+        if node_name not in self.log_files:
+            path = os.path.join(self.log_dir, f"{node_name}.log")
+            self.log_files[node_name] = open(path, "a")
+        return self.log_files[node_name]
+    
+    def level_to_string(self, level: int) -> str:
+        """Convert log level integer to string."""
+        if level == 10:
+            return "DEBUG"
+        elif level == 20:
+            return "INFO"
+        elif level == 30:
+            return "WARN"
+        elif level == 40:
+            return "ERROR"
+        elif level == 50:
+            return "FATAL"
+        else:
+            return "UNKNOWN"
 
 def load_config(package_name: str, file_name: str = "config.yaml"):
     """Load missions and nodes mapping from package share config file."""
@@ -28,7 +78,6 @@ def load_config(package_name: str, file_name: str = "config.yaml"):
     missions = config.get("missions", {})
     nodes = config.get("nodes", {})
     return missions, nodes
-
 
 def start_process(node_name: str, cmd: str, executor: MultiThreadedExecutor, interval: float = 2.0):
     """Start an external process and attach a HeartbeatPublisher node to it.
