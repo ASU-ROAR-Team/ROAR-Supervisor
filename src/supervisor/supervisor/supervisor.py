@@ -48,7 +48,10 @@ class Supervisor(Node):
         if command == "status":
             print_status(self.active_nodes)
             return
-
+        if command == "stop":
+            stop_all(self.active_nodes, self._executor)
+            self.get_logger().info("All missions stopped")
+            return
         if command not in self.missions:
             self.get_logger().error(f"Unknown mission: {command}")
             return
