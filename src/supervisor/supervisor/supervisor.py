@@ -1,3 +1,4 @@
+import json
 from std_msgs.msg import String
 from click import command
 import rclpy
@@ -35,7 +36,7 @@ class Supervisor(Node):
         )
         self.create_subscription(
             String,
-            '/missions',
+            '/mission_cmd',
             self.mission_control_callback,
             1000
         )
@@ -44,7 +45,15 @@ class Supervisor(Node):
     
     def mission_control_callback(self, msg: String):
         """Callback to handle mission commands and manage active nodes."""
-        command = msg.data.strip()
+        try:
+            data = json.loads(msg.data)   # Convert JSON string to dictionary
+        except json.JSONDecodeError:
+            self.get_logger().error("Invalid JSON received")
+            return
+
+        command = data.get("command")
+        mission = data.get("mission")
+
         if command == "status":
             print_status(self.active_nodes)
             return
@@ -52,15 +61,20 @@ class Supervisor(Node):
             stop_all(self.active_nodes, self._executor)
             self.get_logger().info("All missions stopped")
             return
-        if command not in self.missions:
-            self.get_logger().error(f"Unknown mission: {command}")
+        if command == "reset":
+            stop_all(self.active_nodes, self._executor)
+            self.get_logger().info("All missions reset")
             return
-
+        
+        if command == "start" and mission:
+            if mission not in self.missions:
+                self.get_logger().error(f"Unknown mission: {mission}")
+                return
+        
         # Stop all currently running processes
         stop_all(self.active_nodes, self._executor)
-
         # Start new processes for the selected mission
-        for node_name in self.missions[command]:
+        for node_name in self.missions[mission]:
             file_path = self.nodes.get(node_name)
             if not file_path:
                 self.get_logger().error(f"No command configured for node '{node_name}'")
@@ -71,7 +85,7 @@ class Supervisor(Node):
             except Exception as e:
                 self.get_logger().error(f"Error launching {node_name}: {e}")
 
-        self.get_logger().info(f"Mission '{command}' launched: {self.missions[command]}")
+        self.get_logger().info(f"Mission '{mission}' launched: {self.missions[mission]}")
         
     def log_callback(self, msg: Log):
         """Callback to log messages from all nodes into separate files."""

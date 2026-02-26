@@ -1,15 +1,21 @@
 # missions.yaml
 missions:
-  mission1:
+  Drilling:
     - node1
     - node2
-  mission2:
+  Navigation:
     - node2
     - node3
-  mission3:
+  Sampling:
     - node1
     - node3
-
+  Maintenance:
+    - node1
+    - node2
+    - node3
+  Teleoperation:
+    - node2
+  
 nodes:
   node1: "ros2 run supervisor my_first_node"
   node2: "ros2 run supervisor my_second_node"
