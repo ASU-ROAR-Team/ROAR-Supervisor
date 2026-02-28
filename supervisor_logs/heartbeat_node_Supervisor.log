@@ -1,0 +1,5 @@
+[1772126743.416842637] [INFO] [heartbeat_node_Supervisor::__init__ @ MonitorNode.py:25] Monitoring started for Supervisor, PID=14677, interval=5s
+[1772126973.787403476] [INFO] [heartbeat_node_Supervisor::__init__ @ MonitorNode.py:25] Monitoring started for Supervisor, PID=15945, interval=5s
+[1772304426.111024156] [INFO] [heartbeat_node_Supervisor::__init__ @ MonitorNode.py:25] Monitoring started for Supervisor, PID=13914, interval=5s
+[1772304945.241243705] [INFO] [heartbeat_node_Supervisor::__init__ @ MonitorNode.py:25] Monitoring started for Supervisor, PID=21638, interval=5s
+[1772305241.669008581] [INFO] [heartbeat_node_Supervisor::__init__ @ MonitorNode.py:26] Monitoring started for Supervisor, PID=25798, interval=5s

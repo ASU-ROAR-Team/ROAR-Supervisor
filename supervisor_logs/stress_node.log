@@ -1,0 +1,10 @@
+[1772126758.715828473] [INFO] [stress_node::__init__ @ my_third_node.py:17] StressNode started. PID=14754
+[1772126760.567282540] [INFO] [stress_node::__init__ @ my_third_node.py:27] Allocated ~503.5 MB memory
+[1772126981.465008619] [INFO] [stress_node::__init__ @ my_third_node.py:17] StressNode started. PID=15997
+[1772126981.996963848] [INFO] [stress_node::__init__ @ my_third_node.py:27] Allocated ~503.5 MB memory
+[1772304834.881099406] [INFO] [stress_node::__init__ @ my_third_node.py:17] StressNode started. PID=19554
+[1772304835.190726883] [INFO] [stress_node::__init__ @ my_third_node.py:27] Allocated ~503.5 MB memory
+[1772304900.508271392] [INFO] [stress_node::__init__ @ my_third_node.py:17] StressNode started. PID=20987
+[1772304900.888776356] [INFO] [stress_node::__init__ @ my_third_node.py:27] Allocated ~503.5 MB memory
+[1772305257.022075290] [INFO] [stress_node::__init__ @ my_third_node.py:18] StressNode started. PID=26050
+[1772305257.536621225] [INFO] [stress_node::__init__ @ my_third_node.py:28] Allocated ~503.5 MB memory

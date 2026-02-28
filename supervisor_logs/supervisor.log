@@ -1,0 +1,18 @@
+[1772126743.403846897] [INFO] [supervisor::__init__ @ supervisor.py:44] Supervisor running
+[1772126757.861816265] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772126815.191321294] [INFO] [supervisor::mission_control_callback @ supervisor.py:62] All missions stopped
+[1772126851.287079151] [INFO] [supervisor::mission_control_callback @ supervisor.py:66] All missions reset
+[1772126973.762509411] [INFO] [supervisor::__init__ @ supervisor.py:44] Supervisor running
+[1772126979.320221262] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772127000.852515757] [INFO] [supervisor::mission_control_callback @ supervisor.py:62] All missions stopped
+[1772304426.103063855] [INFO] [supervisor::__init__ @ supervisor.py:44] Supervisor running
+[1772304545.638168071] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772304833.357976248] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772304894.526730911] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772304897.714099931] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772304945.228003745] [INFO] [supervisor::__init__ @ supervisor.py:44] Supervisor running
+[1772304951.764531051] [INFO] [supervisor::mission_control_callback @ supervisor.py:88] Mission 'Navigation' launched: ['node2', 'node3']
+[1772305241.656749399] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1772305255.539601285] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1772305255.576071848] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node3
+[1772305255.577047901] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Navigation' running: ['node2', 'node3']
