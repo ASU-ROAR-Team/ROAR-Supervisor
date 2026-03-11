@@ -12,3 +12,6 @@ __pycache__/
 
 # Colcon / Python packages
 *.egg-info
+
+# Supervisor Logs
+supervisor_logs/

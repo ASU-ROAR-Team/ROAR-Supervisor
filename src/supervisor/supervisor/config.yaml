@@ -1,5 +1,15 @@
 # missions.yaml
 missions:
+  SLAM:
+    - SLAM
+  MOTION_PLANNING:
+    - Motion_Planning
+  PERCEPTION: 
+    - Perception
+  REMOTE: 
+    - SLAM
+    - Motion_Planning
+    - Perception
   Drilling:
     - node1
     - node2
@@ -15,8 +25,10 @@ missions:
     - node3
   Teleoperation:
     - node2
-  
 nodes:
   node1: "ros2 run supervisor my_first_node"
   node2: "ros2 run supervisor my_second_node"
   node3: "ros2 run supervisor my_third_node"
+  SLAM: "ros2 launch lego_loam_sr run.launch.py"
+  Motion_Planning: "ros2 launch costmap_calculation integrated_stack.launch.py"
+  Perception: "ros2 launch perception_bringup full_perception_system_pipeline.launch.py"
