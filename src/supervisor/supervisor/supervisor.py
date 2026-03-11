@@ -14,6 +14,7 @@ from rclpy.executors import MultiThreadedExecutor
 from ament_index_python.packages import get_package_share_directory
 from supervisor.MonitorNode import MonitorNode
 from rcl_interfaces.msg import Log
+import shlex
 
 # Directory to store log files
 log_dir = "supervisor_logs"
@@ -206,8 +207,79 @@ class Supervisor(Node):
         """Stop all active nodes and clean up resource subscriptions."""
         for node_name in list(self.active_nodes.keys()):
             self._unsubscribe_resource_topic(node_name)
-        stop_all(self.active_nodes, self._executor)
+        self.stop_all(self.active_nodes)
         self.node_resource_data.clear()
+    
+
+    def stop_all(self, active_nodes: dict):
+        for node_name, node_data in list(active_nodes.items()):
+            monitor = node_data.get("monitor")
+            if monitor:
+                try:
+                    self._executor.remove_node(monitor)
+                    monitor.destroy_node()
+                except Exception:
+                    pass
+            self.stop_node(node_data)
+        active_nodes.clear()
+
+
+    def stop_node(self, node_data: dict, stage=1, timer_to_cancel=None):
+        if timer_to_cancel:
+            timer_to_cancel.cancel()
+
+        process = node_data.get("process")
+        node_name = node_data.get("node_name", "Unknown Node")
+
+        # 1. BASE CASE: If process is already dead when the timer fires
+        if not process or process.poll() is not None:
+            if rclpy.ok():
+                if stage == 1:
+                    # This only happens if the process was already dead before we started
+                    self.get_logger().info(f"[{node_name}] Process was already stopped.")
+                elif stage == 2:
+                    # Stage 1 (SIGINT) worked!
+                    self.get_logger().info(f"[{node_name}] Process stopped successfully (SIGINT).")
+                elif stage == 3:
+                    # Stage 2 (SIGTERM) worked!
+                    self.get_logger().info(f"[{node_name}] Process stopped successfully (SIGTERM).")
+            return
+
+        try:
+            pgid = os.getpgid(process.pid)
+            
+            # EMERGENCY SHUTDOWN: If ROS is dead, don't wait. Kill now.
+            if not rclpy.ok():
+                os.killpg(pgid, signal.SIGKILL)
+                self.get_logger().info(f"[{node_name}] Process forcefully killed.")
+                return
+            
+            if stage == 1:
+                self.get_logger().info(f"[{node_name}] Stage 1: Sending SIGINT...")
+                os.killpg(pgid, signal.SIGINT)
+                
+                timer = []
+                timer.append(self.create_timer(2.0, lambda: self.stop_node(node_data, stage=2, timer_to_cancel=timer[0])))
+                
+            elif stage == 2:
+                self.get_logger().warn(f"[{node_name}] Stage 2: SIGINT ignored. Sending SIGTERM...")
+                os.killpg(pgid, signal.SIGTERM)
+                
+                timer = []
+                timer.append(self.create_timer(2.0, lambda: self.stop_node(node_data, stage=3, timer_to_cancel=timer[0])))
+                
+            elif stage == 3:
+                self.get_logger().error(f"[{node_name}] Stage 3: SIGTERM ignored. Sending SIGKILL.")
+                os.killpg(pgid, signal.SIGKILL)
+                # SIGKILL is immediate, no timer needed
+                process.poll() 
+                self.get_logger().info(f"[{node_name}] Process forcefully killed.")
+
+        except ProcessLookupError:
+            self.get_logger().info(f"[{node_name}] Process disappeared during shutdown.")
+        except Exception as e:
+            self.get_logger().error(f"Error terminating {node_name}: {e}")
+
 
     # ── Log callback ─────────────────────────────────────────────────────────
 
@@ -245,7 +317,9 @@ def load_config(package_name: str, file_name: str = "config.yaml"):
 def start_process(node_name: str, cmd: str, executor: MultiThreadedExecutor,
                   interval: float = 2.0, resource_topic: str = "resource"):
     """Start an external process and attach a MonitorNode to it."""
-    proc = subprocess.Popen(cmd, shell=True, preexec_fn=os.setsid)
+
+    args = shlex.split(cmd)
+    proc = subprocess.Popen(args, preexec_fn=os.setsid)
     print(f"Launched process '{node_name}' with PID: {proc.pid}")
 
     monitor = MonitorNode(
@@ -257,45 +331,7 @@ def start_process(node_name: str, cmd: str, executor: MultiThreadedExecutor,
     )
     executor.add_node(monitor)
 
-    return {"monitor": monitor, "process": proc}
-
-
-def stop_node(node_data: dict):
-    process = node_data.get("process")
-    monitor = node_data.get("monitor")
-
-    if process:
-        try:
-            try:
-                os.killpg(os.getpgid(process.pid), signal.SIGTERM)
-            except Exception:
-                process.terminate()
-            process.wait(timeout=2)
-        except subprocess.TimeoutExpired:
-            try:
-                os.killpg(os.getpgid(process.pid), signal.SIGKILL)
-            except Exception:
-                process.kill()
-        except Exception as e:
-            print(f"Error terminating process: {e}")
-
-    if monitor:
-        try:
-            monitor.destroy_node()
-        except Exception:
-            pass
-
-
-def stop_all(active_nodes: dict, executor: MultiThreadedExecutor):
-    for node_name, node_data in list(active_nodes.items()):
-        monitor = node_data.get("monitor")
-        if monitor:
-            try:
-                executor.remove_node(monitor)
-            except Exception:
-                pass
-        stop_node(node_data)
-    active_nodes.clear()
+    return {"monitor": monitor, "process": proc, "node_name": node_name}
 
 
 def print_status(active_nodes: dict):

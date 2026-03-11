@@ -15,6 +15,13 @@ source install/setup.bash
 ros2 run supervisor supervisor
 ```
 
+For remote team to run all modules:
+
+In another terminal:
+```
+ros2 topic pub --once /mission_cmd std_msgs/msg/String "{data: '{\"command\":\"start\",\"mission\":\"REMOTE\"}'}"
+```
+
 Quick debug commands:
 
 ```bash
