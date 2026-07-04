@@ -16,3 +16,44 @@
 [1772305255.539601285] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
 [1772305255.576071848] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node3
 [1772305255.577047901] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Navigation' running: ['node2', 'node3']
+[1772308783.229136707] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1772308830.324321366] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1772308830.383520919] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node3
+[1772308830.384459797] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Navigation' running: ['node2', 'node3']
+[1772308858.227286991] [INFO] [supervisor::mission_control_callback @ supervisor.py:163] All missions stopped.
+[1772308906.295320482] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node1
+[1772308906.319114062] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node3
+[1772308906.323135546] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Sampling' running: ['node1', 'node3']
+[1772310100.124064848] [INFO] [supervisor::mission_control_callback @ supervisor.py:163] All missions stopped.
+[1772310498.155275005] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1772316821.575986089] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1772317403.752679480] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1772317558.729082136] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1772317558.816214623] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node3
+[1772317558.824718751] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Navigation' running: ['node2', 'node3']
+[1773670750.849290015] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1773673746.997835324] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node1
+[1773673747.042811641] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1773673747.043888902] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Drilling' running: ['node1', 'node2']
+[1773673830.729208751] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1773674878.460041347] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1773759579.370845012] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1773759606.990868004] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1773759607.047826117] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node3
+[1773759607.064232376] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Navigation' running: ['node2', 'node3']
+[1773759699.689646678] [INFO] [supervisor::mission_control_callback @ supervisor.py:163] All missions stopped.
+[1773759703.384804086] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1773759703.385336784] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Teleoperation' running: ['node2']
+[1773763472.584324526] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1773763496.163142451] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node1
+[1773763496.283552442] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1773763496.288078876] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Drilling' running: ['node1', 'node2']
+[1773763532.942818267] [INFO] [supervisor::mission_control_callback @ supervisor.py:163] All missions resetped.
+[1773763536.960754171] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node1
+[1773763537.012701494] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1773763537.015257471] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Drilling' running: ['node1', 'node2']
+[1773764152.510709957] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running
+[1773764184.759470853] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node1
+[1773764184.862281133] [INFO] [supervisor::_subscribe_to_resource_topic @ supervisor.py:129] Subscribed to resource topic: resource_node2
+[1773764184.863566496] [INFO] [supervisor::mission_control_callback @ supervisor.py:203] Mission 'Drilling' running: ['node1', 'node2']
+[1773766244.140853993] [INFO] [supervisor::__init__ @ supervisor.py:60] Supervisor running

@@ -41,3 +41,415 @@
 [1772305261.785714619] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 34664)
 [1772305262.777809767] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 40510)
 [1772305264.840761623] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 40518)
+[1772308814.225370845] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 49474)
+[1772308827.881965987] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 49474)
+[1772308829.110370506] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 37456)
+[1772308830.909486382] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 37464)
+[1772308892.204930925] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:76] WebSocket server running on ws://0.0.0.0:8080
+[1772308893.056295526] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 51778)
+[1772308894.654446027] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 45478)
+[1772308908.629749164] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 51778)
+[1772308909.635571651] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 60062)
+[1772308911.677377741] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 60070)
+[1772310068.366417868] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:76] WebSocket server running on ws://0.0.0.0:8080
+[1772310070.068336841] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 52710)
+[1772310070.087771022] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 52720)
+[1772310070.091819479] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 52736)
+[1772310085.448895300] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 52736)
+[1772310085.450279764] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 52720)
+[1772310085.453301687] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 52710)
+[1772310086.345924884] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 45152)
+[1772310090.598463662] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 45152)
+[1772310092.439640805] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 45156)
+[1772310093.644647812] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 39376)
+[1772310105.325653569] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 45156)
+[1772310106.438993756] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 56968)
+[1772310108.362159594] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 56984)
+[1772310504.601629041] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:76] WebSocket server running on ws://0.0.0.0:8080
+[1772310510.096538600] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 48934)
+[1772310510.104393401] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 48942)
+[1772310510.111583387] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 48958)
+[1772310511.855859853] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 48934)
+[1772310511.856829307] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 48958)
+[1772310511.859505643] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:91] Client disconnected: ('127.0.0.1', 48942)
+[1772310513.167109057] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:83] Client connected: ('127.0.0.1', 44018)
+[1772316900.534912289] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 57156)
+[1772316901.860119796] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 57156)
+[1772316904.895590074] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 57170)
+[1772316909.216199762] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 57170)
+[1772317557.531097550] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 60836)
+[1772317561.161580875] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 60836)
+[1772317562.279901361] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 60838)
+[1772317564.219641459] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 60854)
+[1772317573.867641681] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 60838)
+[1772317576.909163822] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 36534)
+[1772317580.680764046] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 36534)
+[1772317580.682535592] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 60854)
+[1772317660.069763673] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:77] WebSocket server running on ws://0.0.0.0:8080
+[1773670889.606472983] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:77] WebSocket server running on ws://0.0.0.0:8080
+[1773670942.491877253] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 35028)
+[1773670944.973063886] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 35028)
+[1773670946.047265576] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 54852)
+[1773670948.011690054] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 54862)
+[1773670948.624311634] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 54852)
+[1773670951.662561619] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 54872)
+[1773671060.829703442] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 54862)
+[1773671060.837458602] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 54872)
+[1773671063.097057643] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 60642)
+[1773673646.873304572] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 60642)
+[1773673647.621409128] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 51260)
+[1773673653.831063104] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 51260)
+[1773673656.874626204] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 47954)
+[1773673657.309459312] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 47962)
+[1773673741.429185627] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 47962)
+[1773673742.847031334] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 52930)
+[1773673744.478091801] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 52946)
+[1773673750.071192952] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:92] Client disconnected: ('127.0.0.1', 52930)
+[1773673751.070291455] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 45678)
+[1773673753.104381752] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:84] Client connected: ('127.0.0.1', 45694)
+[1773673876.262396379] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:90] WebSocket server running on ws://0.0.0.0:8080
+[1773673877.578164507] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 41316)
+[1773673877.582021634] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 41326)
+[1773673877.587777275] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 41328)
+[1773673877.593693262] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 41332)
+[1773674085.115023885] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.9
+[1773674085.127467768] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.7
+[1773674085.173856801] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.5
+[1773674085.180398521] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.4
+[1773674085.257240455] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.3
+[1773674085.557799224] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.9
+[1773674085.627036829] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.8
+[1773674085.643508949] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.7
+[1773674085.662787079] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.6
+[1773674085.750548300] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.4
+[1773674086.315906045] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.3
+[1773674086.359613920] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.2
+[1773674086.430160157] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.1
+[1773674086.466714579] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4
+[1773674086.534630417] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.8
+[1773674086.596412079] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.7
+[1773674086.609294918] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.6
+[1773674086.691846987] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.5
+[1773674086.714843602] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.4
+[1773674086.839436877] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.1
+[1773674086.925718082] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3
+[1773674087.040601817] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.9
+[1773674087.256481314] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3
+[1773674087.395986683] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.1
+[1773674087.522754371] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.4
+[1773674087.527824379] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.5
+[1773674087.547746208] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.6
+[1773674087.560769322] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.7
+[1773674087.630170149] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.8
+[1773674087.707147533] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5
+[1773674087.798131547] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.1
+[1773674088.409382672] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5
+[1773674088.448400326] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.9
+[1773674088.491727670] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.6
+[1773674088.564210005] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.4
+[1773674088.575162832] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.1
+[1773674089.052773754] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4
+[1773674204.351289287] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:161] Load cell: 1
+[1773674210.314797238] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:161] Load cell: 0
+[1773674225.198255778] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:154] Servo: 1
+[1773674241.035902728] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:154] Servo: 0
+[1773674244.263555699] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:154] Servo: 1
+[1773674865.331242223] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 42688)
+[1773674865.335486699] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 42690)
+[1773674865.341139054] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 42698)
+[1773674865.344712602] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 42706)
+[1773674883.177249505] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 42690)
+[1773674884.349686446] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 47732)
+[1773674886.220596177] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 43050)
+[1773675236.078064196] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 47732)
+[1773675237.270478824] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 56964)
+[1773675239.159947863] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 56968)
+[1773675507.353850623] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 56968)
+[1773675507.355233874] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 43050)
+[1773675507.356978156] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 42698)
+[1773675507.357556783] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 42706)
+[1773675507.358045854] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 56964)
+[1773675507.358605674] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 42688)
+[1773675508.172912213] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 39126)
+[1773759587.159471349] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 57578)
+[1773759599.857689678] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 57578)
+[1773759601.770173931] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 45446)
+[1773759602.901868856] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 51408)
+[1773759603.727521111] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 45446)
+[1773759603.731701357] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 51412)
+[1773759606.823830003] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 51416)
+[1773759639.442760255] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 51412)
+[1773759642.527492117] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 56046)
+[1773759646.295038844] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 56056)
+[1773759648.521665801] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 56056)
+[1773759651.459347896] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 56066)
+[1773759651.571360316] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 56078)
+[1773759653.417676003] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 56066)
+[1773759656.455419062] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 36076)
+[1773759658.066499780] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 36092)
+[1773759663.513851846] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 34316)
+[1773759668.064013068] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 34322)
+[1773759677.468933981] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 34316)
+[1773759677.505280694] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 33534)
+[1773759680.572954993] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 33538)
+[1773759998.298359438] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 36092)
+[1773759998.301528534] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 34322)
+[1773759998.302307197] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:105] Client disconnected: ('127.0.0.1', 33534)
+[1773759999.404727181] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 35736)
+[1773760001.340178912] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 35740)
+[1773760001.343716164] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 35752)
+[1773760001.347177967] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:97] Client connected: ('127.0.0.1', 35754)
+[1773760461.634840511] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.3
+[1773760462.036166832] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.4
+[1773760462.056903140] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.7
+[1773760462.081430433] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.8
+[1773760462.254358366] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.9
+[1773760462.301647334] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3
+[1773760462.332166516] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.1
+[1773760462.333992944] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.2
+[1773760462.526878314] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 4.3
+[1773760462.535793467] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.1
+[1773760462.551059321] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.3
+[1773760462.585403399] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 5.5
+[1773760462.651624280] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 6.3
+[1773760462.741078616] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 6.7
+[1773760462.784200040] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 7.1
+[1773760462.799845192] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 9.3
+[1773760462.919780673] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 9.7
+[1773760462.924917701] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 10.4
+[1773760463.018297018] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 10.5
+[1773760463.067700637] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 11.7
+[1773760463.086842446] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 11.8
+[1773760463.184841978] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 12
+[1773760463.237453850] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 12.2
+[1773760463.262299620] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 12.7
+[1773760463.474792919] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 12.6
+[1773760463.505594664] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 12.5
+[1773760464.286044039] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:154] Servo: 1
+[1773760465.083303064] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:154] Servo: 0
+[1773760466.743662083] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.8
+[1773760470.114763456] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.7
+[1773760470.125979580] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.6
+[1773760470.150387090] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.5
+[1773760470.502439742] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.4
+[1773760470.643705233] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.2
+[1773760470.734168730] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3.1
+[1773760470.905489130] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 3
+[1773760471.011570639] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.9
+[1773760471.129224769] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.8
+[1773760471.561266154] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.5
+[1773760471.645545594] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.4
+[1773760472.094594665] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.3
+[1773760472.200097037] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.2
+[1773760472.324966897] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 2.1
+[1773760472.509290790] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.8
+[1773760472.554400364] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.7
+[1773760472.711173446] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.5
+[1773760472.791824227] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.4
+[1773760473.004007439] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.3
+[1773760473.131248650] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.2
+[1773760473.152889546] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1.1
+[1773760473.268345213] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1
+[1773760473.492575308] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.9
+[1773760473.500299158] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.8
+[1773760473.615267824] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.7
+[1773760473.751769582] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.6
+[1773760473.797113985] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.5
+[1773760473.914779308] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.4
+[1773760474.244006612] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.5
+[1773760474.459378973] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.6
+[1773760474.548147302] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.7
+[1773760474.827101989] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.8
+[1773760475.060152363] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.9
+[1773760475.459674087] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 1
+[1773760476.279438614] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.9
+[1773760476.420669268] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.7
+[1773760476.526200824] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.6
+[1773760476.598859010] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.5
+[1773760476.703629679] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.4
+[1773760476.711741317] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.3
+[1773760476.973628691] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.2
+[1773760477.176313947] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: 0.1
+[1773760477.397480156] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:147] Drilling location: -0.1
+                                                                                                                           [1773763482.383174419] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 32778)
+[1773763492.287745699] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 32778)
+[1773763492.294517919] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 34372)
+[1773763495.355566140] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 34376)
+[1773763499.247086473] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 34372)
+[1773763500.345754986] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 32836)
+[1773763502.279102029] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 32850)
+[1773763518.138535468] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 32836)
+[1773763518.141605613] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 47016)
+[1773763521.199431087] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 56864)
+[1773763526.337440809] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 47016)
+[1773763526.344239357] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 56872)
+[1773763528.852029656] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 56872)
+[1773763528.853912205] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 56888)
+[1773763529.396604958] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 50234)
+[1773763531.895201469] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 50250)
+[1773763541.358608447] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 56888)
+[1773763542.457915561] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 47492)
+[1773763544.399135880] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 47498)
+[1773763666.880677655] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 56864)
+[1773763666.881773196] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 34376)
+[1773763666.882612400] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 47492)
+[1773763666.883977220] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 50234)
+[1773763666.886115715] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 50250)
+[1773763666.888128756] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 32850)
+[1773763666.889725806] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 47498)
+[1773763668.060688916] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 49426)
+[1773763669.534425483] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763735.139960709] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763736.368240760] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773763736.864814016] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763737.553805765] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763741.362291846] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773763741.774635305] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763742.587180189] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773763743.343375495] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763743.441816707] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763744.425665718] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763744.810086457] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773763744.840672071] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763745.194829839] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773763745.859953642] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763770.690962071] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763772.172742883] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773763772.249887879] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764180.607834967] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 60984)
+[1773764187.866697718] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 60984)
+[1773764188.914850099] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 48004)
+[1773764190.908429583] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 48010)
+[1773764263.342028359] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764263.371638421] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764264.461054420] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764264.835524292] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764265.301457503] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764290.141256802] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764292.716341368] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764292.745224382] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764294.506134753] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764304.291515263] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764304.316104399] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764304.934162190] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764313.525615058] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764313.550916782] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764315.322573204] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764315.734512810] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764317.284728379] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764317.689069419] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=1
+[1773764319.962310204] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=-1, auger=0, speed=0, stop=1
+[1773764320.123667252] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=1
+[1773764321.359804964] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=-1, auger=0, speed=0, stop=1
+[1773764321.749343496] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=1
+[1773764323.198641462] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=1
+[1773764323.493188508] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=0, stop=1
+[1773764325.325471125] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=0, stop=1
+[1773764327.865014372] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=0.5, stop=1
+[1773764328.233893348] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=1, stop=1
+[1773764328.251738980] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=8, stop=1
+[1773764328.277891097] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=8.5, stop=1
+[1773764328.297745324] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=9, stop=1
+[1773764328.511995025] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=9.5, stop=1
+[1773764328.615002484] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=11.5, stop=1
+[1773764329.685426705] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=14.5, stop=1
+[1773764329.891705192] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=15, stop=1
+[1773764330.199031290] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=15.5, stop=1
+[1773764331.948453869] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=18, stop=1
+[1773764528.660802354] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 48004)
+[1773764528.687206337] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 48010)
+[1773764529.949054415] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 48752)
+[1773764542.351286680] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764544.267822092] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764548.011245189] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, speed=0, stop=0
+[1773764554.808666809] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=-1, auger=0, speed=0, stop=0
+[1773764558.700836933] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=1
+[1773764562.319274951] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764564.320291414] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, speed=0, stop=0
+[1773764566.318607693] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764567.434922709] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764570.022174094] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764574.577527817] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764577.324729358] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764578.493005364] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764579.705974175] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=0, stop=0
+[1773764585.836071342] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=9.5, stop=0
+[1773764588.017091030] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, speed=13, stop=0
+[1773764716.617547688] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:92] WebSocket server running on ws://0.0.0.0:8080
+[1773764718.750012391] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 45464)
+[1773764720.005813634] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 45464)
+[1773764721.285533017] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 45466)
+[1773764741.031531351] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, gate=0, speed=0, stop=0
+[1773764744.193100914] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, gate=1, speed=0, stop=0
+[1773764746.664580970] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, gate=1, speed=17.5, stop=0
+[1773764761.530817748] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=-1, auger=0, gate=1, speed=17.5, stop=0
+[1773764763.542042691] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=17.5, stop=1
+[1773764767.856283040] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=17.5, stop=0
+[1773764773.238221689] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=17.5, stop=1
+[1773764782.855121315] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=17.5, stop=0
+[1773764790.550674116] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=17, stop=0
+[1773764790.637924764] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=8, stop=0
+[1773764790.788691504] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=7.5, stop=0
+[1773764790.796777802] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=5.5, stop=0
+[1773764790.978431423] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=5, stop=0
+[1773764792.651181837] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=4.5, stop=0
+[1773764793.154092497] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=0, stop=0
+[1773764794.955088887] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=1, auger=0, gate=1, speed=0, stop=0
+[1773764795.869897333] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=0, stop=0
+[1773764797.154282190] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=0, stop=1
+[1773764800.616709823] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=0, stop=0
+[1773764801.882525825] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=0, stop=1
+[1773764802.772798847] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=0, gate=1, speed=0, stop=0
+[1773764805.351009187] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, gate=1, speed=0, stop=0
+[1773764816.160699582] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, gate=1, speed=12.5, stop=0
+[1773764817.445075108] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, gate=1, speed=15, stop=0
+[1773764818.150638138] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:146] Drilling command: direction=0, auger=1, gate=1, speed=16, stop=0
+[1773764877.828147776] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 45466)
+[1773764878.778125268] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 40740)
+[1773764913.810119864] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:156] Drilling mission command: location=0, servo=1, load_cell=0
+[1773764919.042111746] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:156] Drilling mission command: location=0, servo=1, load_cell=1
+[1773764928.588598378] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:156] Drilling mission command: location=27.8, servo=1, load_cell=1
+[1773764930.226432704] [INFO] [ws_ros2_bridge::_handle_message @ ws_ros2_bridge.py:156] Drilling mission command: location=24.3, servo=1, load_cell=1
+[1773765051.483359594] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 40740)
+[1773765051.489800252] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 53088)
+[1773765054.538257096] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 58452)
+[1773765093.317593681] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 53088)
+[1773765094.651606843] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 44456)
+[1773765096.355314892] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 44458)
+[1773765097.849350644] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 44456)
+[1773765099.716542891] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 44460)
+[1773765100.892103289] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 44472)
+[1773765108.258943970] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 44460)
+[1773765111.314588235] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 53430)
+[1773765605.005263432] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 58452)
+[1773765605.008621664] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 44458)
+[1773765605.009910992] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 53430)
+[1773765605.011957994] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 44472)
+[1773765607.175089256] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 44730)
+[1773765609.834484628] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 44730)
+[1773765610.764722243] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 44734)
+[1773765619.778389918] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 44734)
+[1773765620.667430444] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 52100)
+[1773765622.297721992] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 52100)
+[1773765623.213211011] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 52104)
+[1773765679.615236891] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 52104)
+[1773765681.593803005] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 35114)
+[1773765965.872921901] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 35114)
+[1773765967.568848951] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 52636)
+[1773765978.285605571] [INFO] [ws_ros2_bridge::_ws_server @ ws_ros2_bridge.py:92] WebSocket server running on ws://0.0.0.0:8080
+[1773765979.117930728] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 46318)
+[1773765985.249611555] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 46318)
+[1773765986.577943881] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 43714)
+[1773766005.546678758] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 43714)
+[1773766007.072999094] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 50588)
+[1773766251.146790500] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 40656)
+[1773766253.780947725] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 41786)
+[1773766516.113396544] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 41786)
+[1773766519.188356718] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 52574)
+[1773768105.660966745] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 52574)
+[1773768107.378444621] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 58576)
+[1773768109.741812878] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 58576)
+[1773768111.465842387] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 58588)
+[1773768112.800678739] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:99] Client connected: ('127.0.0.1', 58590)
+[1773771236.119537365] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 58590)
+[1773771236.129813080] [INFO] [ws_ros2_bridge::_handler @ ws_ros2_bridge.py:107] Client disconnected: ('127.0.0.1', 58588)

@@ -1,0 +1,5 @@
+[1772308906.293334288] [INFO] [heartbeat_node_node1::__init__ @ MonitorNode.py:26] Monitoring started for node1, PID=8487, interval=2.0s
+[1773673746.981355316] [INFO] [heartbeat_node_node1::__init__ @ MonitorNode.py:26] Monitoring started for node1, PID=64750, interval=2.0s
+[1773763496.126379498] [INFO] [heartbeat_node_node1::__init__ @ MonitorNode.py:26] Monitoring started for node1, PID=11917, interval=2.0s
+[1773763536.957150336] [INFO] [heartbeat_node_node1::__init__ @ MonitorNode.py:26] Monitoring started for node1, PID=12104, interval=2.0s
+[1773764184.750699301] [INFO] [heartbeat_node_node1::__init__ @ MonitorNode.py:26] Monitoring started for node1, PID=5391, interval=2.0s

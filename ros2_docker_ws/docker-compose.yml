@@ -1,0 +1,22 @@
+# docker-compose.yml (place in ~/ros2_docker_ws, next to your Dockerfile)
+#version: "3.8"
+# docker-compose.yml
+services:
+  # Container 1: Runs your launch file (2 talkers, 2 listeners)
+  multi_node_container:
+    image: carolrboutrous/roar_pubsub:latest
+    network_mode: host
+    container_name: multi_node_container
+    environment:
+      - ROS_LOCALHOST_ONLY=1
+    # Notice we changed this from 'ros2 run' to 'ros2 launch'
+    command: ros2 launch pub_sub multi_launch.py
+
+  # Container 2: A separate, isolated listener to prove container-to-container comms
+  isolated_listener_container:
+    build: .
+    network_mode: host
+    container_name: isolated_listener_container
+    environment:
+      - ROS_LOCALHOST_ONLY=1
+    command: ros2 run pub_sub listener --ros-args -r __node:=isolated_listener

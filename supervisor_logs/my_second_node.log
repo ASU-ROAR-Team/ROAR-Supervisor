@@ -2,3 +2,9 @@
 [1772304834.729825065] [INFO] [my_second_node::__init__ @ my_second_node.py:8] Hello from Python ROS2 Node!
 [1772304895.988925668] [INFO] [my_second_node::__init__ @ my_second_node.py:8] Hello from Python ROS2 Node!
 [1772304952.637646651] [INFO] [my_second_node::__init__ @ my_second_node.py:8] Hello from Python ROS2 Node!
+[1772308831.190134505] [INFO] [my_second_node::__init__ @ my_second_node.py:9] Hello from Python ROS2 Node!
+[1772317559.461449780] [INFO] [my_second_node::__init__ @ my_second_node.py:9] Hello from Python ROS2 Node!
+[1773673748.287002823] [INFO] [my_second_node::__init__ @ my_second_node.py:9] Hello from Python ROS2 Node!
+[1773759607.835234606] [INFO] [my_second_node::__init__ @ my_second_node.py:9] Hello from Python ROS2 Node!
+[1773763497.697996746] [INFO] [my_second_node::__init__ @ my_second_node.py:9] Hello from Python ROS2 Node!
+[1773764186.032824354] [INFO] [my_second_node::__init__ @ my_second_node.py:9] Hello from Python ROS2 Node!

@@ -1,0 +1,3 @@
+[1772308907.033301674] [INFO] [my_first_node::__init__ @ my_first_node.py:9] Hello from Python ROS2 Node!
+[1773763497.494890059] [INFO] [my_first_node::__init__ @ my_first_node.py:9] Hello from Python ROS2 Node!
+[1773764185.912939798] [INFO] [my_first_node::__init__ @ my_first_node.py:9] Hello from Python ROS2 Node!

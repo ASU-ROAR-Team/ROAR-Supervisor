@@ -6,3 +6,11 @@
 [1772304897.597525918] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:25] Monitoring started for node2, PID=20956, interval=2.0s
 [1772304951.702227485] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:25] Monitoring started for node2, PID=21737, interval=2.0s
 [1772305255.534379057] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=26020, interval=2.0s
+[1772308830.320144026] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=8098, interval=2.0s
+[1772317558.727982822] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=6269, interval=2.0s
+[1773673747.040131444] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=64752, interval=2.0s
+[1773759606.979655033] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=5105, interval=2.0s
+[1773759703.382062211] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=5196, interval=2.0s
+[1773763496.236832330] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=11919, interval=2.0s
+[1773763537.004166857] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=12106, interval=2.0s
+[1773764184.835770021] [INFO] [heartbeat_node_node2::__init__ @ MonitorNode.py:26] Monitoring started for node2, PID=5393, interval=2.0s
